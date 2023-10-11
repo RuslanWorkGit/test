@@ -11,10 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let rec = CGRect(x: 150, y: 150, width: 300, height: 300)
+        let button = UIButton(frame: rec)
+        button.setTitle("Press me!", for: .normal)
+        self.view.addSubview(button)
     }
 
     //My first change
+    
+    //Bob's first commit
 
 }
 
